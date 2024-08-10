@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do APP</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-window">
+        <div class="content">
+            <h1 id="heading">To Do APP</h1>
+        </div>
+        <div class="list content">
+            <div class="task">
+                <input type="text" placeholder="Enter Task">
+                <Button type="Button" class="new-task">
+                    <span class="material-symbols-outlined">
+                        add_circle
+                    </span>
+                    <span>Add Task</span>
+                </Button>  
+            </div>
+            <div class="list-content">
+                <ol class="order-list">
+                    <li>Jogging<button type="button" class="delete">Delete</button></li>
+                    <li>Cricket<button type="button" class="delete">Delete</button></li>
+                    <li>Mobile Games<button type="button" class="delete">Delete</button></li>
+                </ol>
+            </div>
+        
+        </div>
+    </div>
+   <script src="app.js"></script>
+</body>
+</html>
